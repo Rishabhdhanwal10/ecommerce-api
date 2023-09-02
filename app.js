@@ -5,7 +5,7 @@ const db = require('./config/mongoose');
 
 require('dotenv').config({path: './config.env'});
 
-const PORT = 3000 || process.env.PORT;
+const PORT = process.env.PORT || 3000;
 
 // initializing express
 const app = express();
