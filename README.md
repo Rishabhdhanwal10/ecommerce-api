@@ -25,7 +25,7 @@ STEPS TO CREATE A NEW PRODUCT:
 5) Add name & quantity as the keys and set the desired values for the keys.
 6) Make a POST request.
 7) If you recieve the message saying new product added successfully then you have done everything correct.
-8) The product is created. Check it out by making a GET request at localhost:3000/products
+8) The product is created. Check it out by making a GET request at  http://43.205.196.154:8000/products
 
 STEPS TO DELETE A PRODUCT:
 1) copy the object id of the product you want to delete.
